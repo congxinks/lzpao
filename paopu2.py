@@ -22,7 +22,7 @@ __shell__('apt install --no-upgrade nvidia-opencl-dev > /dev/null')
 
 __shell__('mkdir -p run_lz_in_gg/networks')
 __shell__('rm -rf wtlist')
-__shell__('git clone https://github.com/liujn2018/wtlist.git')
+__shell__('git clone https://github.com/congxinks/wtlist.git')
 __shell__('pip install gdown >/dev/null')
 with open('wtlist/current.txt', 'rt') as wt_in:
     for line in wt_in.readlines():
